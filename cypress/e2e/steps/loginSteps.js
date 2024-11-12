@@ -3,7 +3,7 @@ import { Given, When, Then, And} from "cypress-cucumber-preprocessor/steps"
 
 
 Given("que acesso o site", () => {
-    cy.visit('https://www.saucedemo.com/v1/')
+    cy.visit('https://www.saucedemo.com/')
 })
 
 When("eu informo o usuário {string}", (user) => {
